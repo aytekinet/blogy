@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+          - name: Deploy Ghost Theme
+  uses: TryGhost/action-deploy-theme@v1.4.1
+
